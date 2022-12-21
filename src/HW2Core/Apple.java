@@ -1,2 +1,8 @@
-package HW2Core;public class Apple {
+package HW2Core;
+
+public class Apple extends Fruit {
+    @Override
+    float getWeight() {
+        return 1.0f;
+    }
 }
